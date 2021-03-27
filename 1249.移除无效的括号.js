@@ -32,7 +32,7 @@ var minRemoveToMakeValid = function (s) {
         }
     }
     // 删除无效的左括号
-    while (stack.length > 0) 
+    while (stack.length > 0) {
         let index = stack.pop();
         resS.splice(index, 1);
     }
